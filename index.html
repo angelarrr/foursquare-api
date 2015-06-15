@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Foursquare API Hack</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans|Special+Elite' rel='stylesheet' type='text/css'>
+	<link href="css/font-awesome.min.css" rel="stylesheet">
+	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+</head>
+<body>
+	<div class="header">
+		<div id="foursquare-text">
+			<h1 id="left">foursquare</h1>
+			<span id="right"><i class="fa fa-square"></i><i class="fa fa-square"></i><i class="fa fa-square"></i><i class="fa fa-square"></i></span>
+		</div>
+
+		<div id="search-area">
+			<form id="input-search">
+				<input type="text" name="looking-for" id="looking-for" placeholder="Looking for...">
+				<input type="text" name="location" id="location" placeholder="Location">
+				<input type="submit" name="search" id="search" value="search">
+			</form>
+		</div>
+	</div>
+
+	<div class="rec-venues">
+		<h2>recommended venues near me</h2>
+		<button id="mylocation">use my location</button>
+	</div>
+
+	<div class="search-results">
+	</div>
+</body>
+</html>
