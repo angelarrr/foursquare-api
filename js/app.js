@@ -58,7 +58,6 @@ $(function() {
 
 	// get location function to gather user location
 	function getLocation() {
-
 		var x = document.getElementById("mylocation-error");
 
 		if (navigator.geolocation){
