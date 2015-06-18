@@ -116,5 +116,6 @@ $(function() {
 	$('#mylocation').on('click', function(event){
 		event.preventDefault();
 		getLocation();
+		showSpinner();
 	});
 });
