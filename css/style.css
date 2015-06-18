@@ -13,6 +13,15 @@ body {
 	color: #374140;
 }
 
+a {
+	color: #5B7876;
+	text-decoration: none;
+}
+
+a:hover{
+	color: #374140;
+}
+
 .header {
 	background-color: #1E1E20;
 	color: #D9C7C5;
@@ -82,7 +91,40 @@ input[type="text"] {
 	display: none;
 }
 
-.search-results, .mylocation-error {
+#search-results, #mylocation-error {
 	width: 50%;
 	margin: 1em auto;
+}
+
+#search-results img {
+	display: none;
+}
+
+dl {
+	border: 3px double #ccc;
+	padding: 0.5em;
+  }
+
+dt {
+	float: left;
+	clear: left;
+	width: 200px;
+	text-align: right;
+	font-weight: bold;
+	color: #5B7876;
+}
+
+dt:after {
+	content: ":";
+}
+
+dd {
+	text-align: left;
+	margin: 0 0 0 220px;
+	padding: 0 0 0.25em 0;
+}
+
+#results-list {
+	width: 75%;
+	margin: auto;
 }
